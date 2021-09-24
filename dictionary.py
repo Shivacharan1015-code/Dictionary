@@ -49,7 +49,7 @@ def search():
                 json_data = json_data[0]
 
             subroot1 = Tk()
-            subroot1.title("Result Window")
+            subroot1.title(word)
 
             meanings = json_data['meanings'][0]
             pos= meanings['partOfSpeech']
